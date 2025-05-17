@@ -46,7 +46,8 @@ h3 {
 }
 
 .button:focus {
-  color: #404bbf;
+  /* color: #404bbf; */
+  background-color: #404bbf;
 }
 
 a {
@@ -65,7 +66,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .logo-header {
@@ -74,12 +75,13 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
 
-/* .navigation {
-} */
+.navigation {
+  color: #2e2f42;
+}
 
 .navigation-links {
   font-weight: 500;
@@ -216,7 +218,7 @@ ul {
 } */
 
 .portfolio-image {
-  width: 360px;
+  width: 360;
   height: 300px;
 }
 
