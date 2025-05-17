@@ -3,28 +3,31 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-color: #fff;
   color: #434455;
 }
 
 h1 {
+  text-transform: capitalize;
   font-size: 56px;
   font-weight: bold;
   line-height: 60px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 h2 {
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: bold;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 h3 {
+  text-transform: capitalize;
   font-size: 20px;
   font-weight: medium;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .button {
@@ -40,6 +43,10 @@ h3 {
 
 .button:hover {
   background-color: #404bbf;
+}
+
+.button:focus {
+  color: #404bbf;
 }
 
 a {
@@ -87,6 +94,10 @@ ul {
   color: #404bbf;
 }
 
+.links-item:focus {
+  color: #404bbf;
+}
+
 .contacts {
   font-weight: 400;
   font-size: 16px;
@@ -103,6 +114,10 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+}
+
+.contacts-links-item:focus {
+  color: #404bbf;
 }
 
 .main-table {
@@ -168,17 +183,18 @@ ul {
 .team-cards {
   background-color: #f4f4fd;
 }
-
-/* .section-title {
+/* 
+.section-title {
 }
 
 .team-members {
-}
+} */
 
 .team-member {
+  background-color: #fff;
 }
 
-.team-member-image {
+/* .team-member-image {
 } */
 
 .team-member-name {
@@ -223,7 +239,18 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* color: #f4f4fd; */
+  color: #4d5ae5;
+}
+
+.logo-footer .accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
