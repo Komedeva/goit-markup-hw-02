@@ -30,6 +30,7 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+/** BUTTON **/
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -50,6 +51,7 @@ h3 {
   background-color: #404bbf;
 }
 
+/** LINK **/
 a {
   text-decoration-line: none;
   font-style: normal;
@@ -59,6 +61,7 @@ ul {
   list-style-type: none;
 }
 
+/**LOGO**/
 .logo-header .accent {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -79,6 +82,7 @@ ul {
   font-family: "Raleway", sans-serif;
 }
 
+/* NAVIGATION */
 .navigation {
   color: #2e2f42;
 }
@@ -100,6 +104,7 @@ ul {
   color: #404bbf;
 }
 
+/** CONTACTS **/
 .contacts {
   font-weight: 400;
   font-size: 16px;
