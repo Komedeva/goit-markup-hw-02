@@ -11,7 +11,7 @@ body {
 h1 {
   text-transform: capitalize;
   font-size: 56px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
 }
@@ -19,14 +19,14 @@ h1 {
 h2 {
   text-transform: capitalize;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 
 h3 {
   text-transform: capitalize;
   font-size: 20px;
-  font-weight: medium;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
@@ -134,6 +134,7 @@ ul {
   color: #404bbf;
 }
 
+/**MAIN TITLE**/
 .main-table {
   background: #2e2f42;
 }
@@ -175,11 +176,6 @@ ul {
 }
 
 /* .features { */
-/* display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px; */
 /* } */
 
 /* .features-list {
@@ -247,6 +243,7 @@ ul {
 .online-courses {
 } */
 
+/**FOOTER**/
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -254,7 +251,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: #f4f4fd; */
   color: #4d5ae5;
 }
 
