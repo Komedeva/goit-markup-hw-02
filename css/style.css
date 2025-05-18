@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; */
   background-color: #fff;
   color: #434455;
 }
@@ -95,8 +95,15 @@ ul {
   color: #2e2f42;
 }
 
+.links-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .links-item:hover {
-  /* color: #4d5ae5; */
   color: #404bbf;
 }
 
