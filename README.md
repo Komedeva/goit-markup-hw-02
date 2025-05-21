@@ -1,11 +1,9 @@
-# GoIT Markup Homework 01
+# GoIT Markup Homework 02
 
-This repository contains the solution for GoIT Front-End Developer course's first homework assignment. The project demonstrates the skills acquired in the first module, focusing on HTML and CSS layout structure.
-
-Live Demo
+This repository contains the solution for GoIT Front-End Developer course's second homework assignment. The project demonstrates the skills acquired in the first module, focusing on HTML and CSS layout structure.
 
 You can view the live version of the project here:  
-[Live Demo](https://komedeva.github.io/goit-markup-hw-01/)
+[Live Demo](https://komedeva.github.io/goit-markup-hw-02/)
 
 Features
 
